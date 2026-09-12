@@ -36,14 +36,14 @@ export default function TechCard({ tech, onAdd, isAdded }:TechCardProps) {
           </span>
         </div>
 
-        {/* সংশোধিত বাটন: isAdded এর ওপর ভিত্তি করে ডিজাইন এবং টেক্সট চেঞ্জ হবে */}
+        
         <button
           onClick={() => !isAdded && onAdd(tech)}
           disabled={isAdded}
           className={`w-full rounded-xl min-h-10 h-10 font-medium transition-all duration-300 flex items-center justify-center ${
             isAdded
-              ? "bg-slate-100 text-slate-400 cursor-not-allowed" // বাটন ডিম হওয়ার ডিজাইন
-              : "btn border-0 bg-slate-950 text-white hover:bg-slate-800" // রেগুলার ডিজাইন
+              ? "bg-slate-100 text-slate-400 cursor-not-allowed" 
+              : "btn border-0 bg-slate-950 text-white hover:bg-slate-800" 
           }`}
         >
           {isAdded ? "Added to Stack" : "Add to Stack"}

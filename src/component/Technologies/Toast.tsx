@@ -3,7 +3,7 @@ interface ToastProps {
 }
 
 export default function Toast({ message }:ToastProps) {
-  // যদি মেসেজ না থাকে, তবে টোস্ট রেন্ডার হবে না
+
   if (!message) return null;
 
   return (
