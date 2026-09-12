@@ -11,7 +11,6 @@ function App() {
       <Navbar />
       <Hero />
 
-     
       <Suspense
         fallback={
           <div className="py-20 text-center text-xl font-bold text-slate-500">
