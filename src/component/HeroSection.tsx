@@ -9,7 +9,7 @@ export default function Hero() {
           <div>
             <h1 className="text-6xl font-black">
               Build Your Ideal
-              <span className="block bg-linear-to-r from-orange-500 via-red-500 to-fuchsia-600 bg-clip-text text-transparent">
+              <span className="block bg-brand-gradient bg-clip-text text-transparent">
                 Development Stack
               </span>
             </h1>
@@ -21,7 +21,7 @@ export default function Hero() {
             </p>
 
             <div className="mt-10 flex gap-3">
-              <button className="btn border-0 bg-linear-to-r from-orange-500 to-pink-500 px-5 text-white shadow-none hover:from-orange-600 hover:to-pink-600">
+              <button className="btn border-0 bg-linear-to-r from-orange-500 via-pink-500 to-violet-500 px-5 text-white shadow-none hover:from-violet-500 hover:via-pink-500 hover:to-orange-500">
                 Explore Technologies
               </button>
               <button className="btn border border-slate-200 bg-white px-10 text-slate-600 shadow-none hover:bg-slate-50">

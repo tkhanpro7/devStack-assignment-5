@@ -1,4 +1,4 @@
-export default function TechnologySectionHeader(){
+export default function SectionHeader(){
     return(
         <div className="container mx-auto px-4">
             <h2 className="text-4xl font-black">Explore the <span className="bg-linear-to-r from-orange-500 to-pink-600 bg-clip-text text-transparent">Technologies</span></h2>
