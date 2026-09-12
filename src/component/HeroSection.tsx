@@ -32,11 +32,11 @@ export default function Hero() {
 
           {/* Right content */}
           <div className="flex justify-end">
-            <div className="relative w-full max-w-lg">
+            <div className="w-full">
               <img
                 src={HeroBanner}
-                alt="Development stack illustration"
-                className="relative z-10 w-full object-contain"
+                alt="DevStack"
+                className="w-full"
               />
             </div>
           </div>
